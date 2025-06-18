@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+ipywidgets = "==8.1.7"
+matplotlib = "==3.9.4"
+numpy = "==1.26.4"
+pandas = "==1.5.3"
+tqdm = "==4.67.1"
+python-dotenv = ">=1.0.0"
+openai = ">=0.28.0"
+tiktoken = "*"
+azure-ai-inference = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
+python_full_version = "3.12.10"
